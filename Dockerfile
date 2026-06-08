@@ -1,4 +1,3 @@
-# syntax=docker/dockerfile:1
 ARG UV_VERSION=0.11.18
 ARG PYTHON_VERSION=3.13.13
 
