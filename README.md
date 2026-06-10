@@ -7,7 +7,7 @@ Original source: https://github.com/mittagessen/kraken
 You can start the container outside of Galaxy with:
 
 ```bash
-docker run -it --rm quay.io/leistivo/kraken-ocr:7.0 bash 
+docker run -it --rm quay.io/leistivo/kraken-ocr:7.0.2 bash 
 ```
 
 ### Test binarisation and segmentation
@@ -15,5 +15,5 @@ docker run -it --rm quay.io/leistivo/kraken-ocr:7.0 bash
 You can test basic functionalities outside of Galaxy with:
 
 ```bash
-docker run -it --rm -v ./test:/test quay.io/leistivo/kraken-ocr:7.0 kraken -i /test/french.png /test/out.json binarize segment
+docker run -it --rm -v ./test:/test quay.io/leistivo/kraken-ocr:7.0.2 kraken -i /test/french.png /test/out.json binarize segment
 ```
