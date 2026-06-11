@@ -13,7 +13,7 @@ docker run -it --rm quay.io/leistivo/kraken-ocr:7.0.2 bash
 
 You can test it outside of Galaxy as follows:
 
-### Create an exammple file
+### Create an example file
 
 ```bash
 mkdir -p test &&
